@@ -1,0 +1,29 @@
+/* "*" is used for all the marginn apply below code or style  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* it is usually used to keep the padding,margin and box-sizing is kept as default 
+    and it can be changed if it is mention in the neww class or id */
+}
+
+.container{
+    height: 250px;
+    width: 200px;
+    border: 1px solid orange;
+    border-radius: 15px;
+    background-color: bisque;
+    padding: 20px;
+    /* padding is the gap or space between the content and the border */
+    /* padding can be done from any side like left, right, top , bottom */
+    /* padding: 10px 20px 30px 40px;  */
+        /* top,right,bottom,left */
+    /* padding: 30px 40px; */
+         /* y-axis, x-axis */
+    /* margin is the space otside the border   */
+    margin: 10px;
+    /* same as padding margin can also be editted accordingly */
+    box-sizing: border-box;
+    /* box-sizing is used to keep the box size constant, it never changes whatever will be the 
+    size of the padding */
+}

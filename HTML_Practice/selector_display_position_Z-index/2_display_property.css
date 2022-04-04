@@ -1,0 +1,32 @@
+.top_section{
+
+    border: 2px solid;
+}
+img{
+    width: 50px;
+    height: 50px;
+    /* Display is used to change the in-line element to block element or visa virsa */
+    display: block;
+    margin: auto;
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    text-align: center;
+}
+
+.wrap{
+    border: 3px solid blueviolet;
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 1400px;
+}

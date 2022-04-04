@@ -1,0 +1,46 @@
+.item{
+    border: 2px solid navy;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+}
+
+.parent{
+    border: 2px solid darkslateblue;
+    background-color: aquamarine;
+    height: 2000px;
+}
+
+/* CSS Position: It can have 5 properties
+1.) Static(default)
+2.) Absolute
+3.) Realative
+4.) Fixed
+5.) Sticky */
+
+/* Position static will follow normal DOM (Document Object Model) flow 
+   it will follow in which the sequence was entered */
+
+/* Position absolute will allow us to move that element from its imidiate parent class or id 
+   in this case it is class parent*/
+
+/* Position relative will allow us to move that element from its normal position */
+
+/* Position fixed will make the element fixed certail : top/bottom/left/right from the browser  */
+
+/* Position sticky will make the element stick from the top and the position is fixed 
+   when scrol; down the element is moved*/
+#item3{
+    /* position: relative; */
+    /* position: absolute; */
+    /*position: static;*/
+    /* top: 30px;
+    left: 40px; */
+
+    /* position: fixed;
+    bottom: 5px;
+    right: 15px; */
+
+    position: sticky;
+    top: 5px;
+}

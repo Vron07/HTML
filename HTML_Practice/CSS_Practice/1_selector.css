@@ -1,0 +1,30 @@
+p{/*Element selector: Apply the style to all the p tags in HTML */
+    color: navy;
+    background-color: aqua;
+}
+h1{
+    color: violet;
+    background-color: beige;
+}
+/*ID selector: only apply to the P with id = para2*/
+#para2{
+    color:orange;
+    background-color: pink;
+}
+
+/*Class-Selectors: only apply below style to one or more element 
+which has applied below class */
+.text-violet{
+    color: violet;
+    font-size: large;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+/*Group-Slector: When you have to apply same styling to multiple element than use this selector*/
+nav,footer{
+    background-color: lightgoldenrodyellow;
+    color: darkorange;
+}

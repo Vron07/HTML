@@ -1,0 +1,13 @@
+h1{
+    border-bottom:2px solid red;
+}
+p{
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+span{
+    font-weight: bold;
+    color: darkorange;
+}

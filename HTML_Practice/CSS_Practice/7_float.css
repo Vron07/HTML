@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+     width: 700px;
+     border: 2px solid navy;
+     margin: 40px auto;
+     background-color: aliceblue;
+}
+
+.item{
+    border: 2px solid grey;
+    padding: 10px 2px;
+    margin: 12px 2px;
+    background-color: aqua;
+}
+
+#fruit{
+    width: 45%;
+    float: left;
+}
+
+#computer{
+    width: 45%;
+    float: right;
+}
+
+#stationary{
+    /* clear is used for, not overlap the content of other content */
+    /* clear left will make the content separate from left side and claer right will make the
+    content separate from right side and clear both will clear both the side of the content */
+    width: 100%;
+    clear: both;
+}
+
+p,h3{
+    text-align: justify;
+}
+
+.para{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin: auto;
+    width: 100px;
+}

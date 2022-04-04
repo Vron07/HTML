@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Example</title>
+</head>
+<body>
+    <h2>Students Registration Form</h2>
+    <!-- form are used for the back end use to cllect the data from  the user entry -->
+    <form action="any_back_end_code">
+        <div>
+    <!-- label is used for the mention text, when clicked on the text it will go on input side -->
+    <!-- placeholder is used to keep a timing text when clicked on the cell or we input the text it disappears -->
+            <label for="St_name">Student Name:</label>
+            <input type="text" name="St_name" id="St_name" placeholder="Enter your name">
+        </div><br>
+        <div>
+            <label for="St_age">Student Age:</label>
+            <input type="number" id="St_age" name="St_age" placeholder="Enter your age">
+        </div><br>
+        <div>
+            Gender:<input type="radio" name="St_gender"> Male 
+                   <input type="radio" name="St_gender">Female 
+                   <input type="radio" name="St_gender">Trans-Gender
+        <!-- to keep the single selection in gender we should use same name(Eg: name =  "St_gender") -->
+        <!-- if we give different name thre will be multi-selection in the gender -->
+        </div><br>
+        <div>
+            Are you 18+: <input type="checkbox" name="St_eligiblity">
+        </div><br>
+        <div>
+            Email: <input type="email" name="St_email">
+        </div><br>
+        <div>
+            Student DOB: <input type="date" name="St_DOB">
+        </div><br>
+        <div>
+            User Name : <input type="text" name="St_username">
+        </div><br>
+        <div>
+            Password: <input type="password" name="St_password">
+        </div><br>
+        <div>
+            Education Description: <br><textarea name="St_description" cols="60" rows="10"></textarea>
+        </div><br>
+        <div>
+            Qualification:
+            <select name="St_qualification">
+                <option value="Graduate">Graduate</option>
+                <option value="Inter(10th)">Inter(10th)</option>
+                <option value="Higher(10+2)">Higher(10+2)</option>
+            </select>
+        </div><br>
+        <div>
+            Upload File: <input type="file" name="St_file">
+        </div><br>
+        <div>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+        </div>
+    </form>
+</body>
+</html>

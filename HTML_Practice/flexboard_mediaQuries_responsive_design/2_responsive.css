@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+
+.container{
+    font-size: 10px;
+    border: 2px solid orange;
+    width: 300px;
+    /* height: 620px; */
+    height: 100vh; /*vh = View Hieght*/
+    width: 100vw;/* vw = View Width */
+}
+
+#one{
+    /* font-size: 2em; */ /*2em = 2*font size of the imediate parent */
+    /* Here 2em means 2*10PX of the imidiate parent which is .container  */
+    /* padding: 3em;*/ /*Here padding will be applied of the size of fontsize*3 */
+    /* Here font size will be calculated as 3*( 2em(2*20PX)) */
+}
+
+#two{
+    /* font-size: 3rem;*/  /*Calculates based on root html element 3rem= 3*20px(html)= 60px */
+    /* padding: 2rem;*/  /*Calculates based on root html element 2rem= 2*20px(html)= 40px */
+}

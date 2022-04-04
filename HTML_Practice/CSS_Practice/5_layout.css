@@ -1,0 +1,35 @@
+.productstyle{
+    color: blueviolet;
+    height: 300px;
+    width: 250px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    border-radius: 15px;
+}
+
+.product1{
+    color: blueviolet;
+    height: 300px;
+    width: 250px;
+    background-color: lightpink;
+    border: 2px solid black;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.product2{
+    color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 1200px;
+    width: 1200px;
+    background-image: url(https://images.unsplash.com/photo-1648098470019-c103e39aa32b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    border: 2px solid black;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}

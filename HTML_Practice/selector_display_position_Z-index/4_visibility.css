@@ -1,0 +1,35 @@
+.item{
+    border: 2px solid #10382d;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/* Z-positioning only work when position is applied and 
+ will work when the property of the position is RELATIVE,FIXED, ABSOLUTE, STICKY
+  and will not work when the position value is STATIC*/
+#item1{
+    background-color: skyblue;
+    /* visibility:hidden; */
+    /* visibility hidden means the content will disappear but the space will be occupied 
+       visibility visible mean the content will be shown*/
+    /* display none will hide the element and also the space occupied by the element */
+    /* display: none; */
+}
+#item2{
+    z-index: 2;
+    background-color:rgb(213, 149, 229);
+    position: relative;
+    top: 30px;
+}
+#item3{
+    z-index: 1;
+    background-color: rgb(185, 104, 128);
+    position: relative;
+    top: -10px;
+}
+#item4{
+    background-color: rgb(221, 235, 158);
+}

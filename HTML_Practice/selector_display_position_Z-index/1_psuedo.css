@@ -1,0 +1,40 @@
+.container{
+    width: 650px;
+    margin: auto;
+    background-color: bisque;
+    border: 3px solid violet;
+    border-radius: 15px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/* psuedo selectors are used for styling the button or anchor tag */
+a:hover{
+    background-color: blue;
+}
+/* psuedo selector used in anchor tag, used if the link was visited or the link was active
+example given below */
+a:visited{
+    background-color: blueviolet;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.btn{
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+    color: aliceblue;
+}

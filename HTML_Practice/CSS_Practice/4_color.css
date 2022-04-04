@@ -1,0 +1,17 @@
+#product1{
+    color: blue;
+}
+
+#product2{
+    color: rgb(234, 11,200);
+}
+
+#product3{
+    color: #874545;
+}
+
+.font-style{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}

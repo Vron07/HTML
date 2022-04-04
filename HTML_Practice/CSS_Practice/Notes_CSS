@@ -1,0 +1,60 @@
+3 ways to include css
+ 1. Inline CSS
+ 2. Internal or embedded CSS
+ 3. External CSS file
+
+
+Example
+
+div.span{
+         background-color:blue;
+         color:white;
+}
+
+
+
+
+INLINE CSS
+
+   <p style= "color:green;">It is example of inline styling</p>
+
+INLINE CSS IS USED IN THE SINGLE LINE FOR THE ELEMENT 
+
+
+
+
+INTERNAL CSS
+
+<head>
+  <style>
+      p{
+        color:red;
+        }
+   </style>
+</head> 
+
+INTERNAL CSS IS USED FOR THE ENTIRE ELEMENT WHEN PARTICULARY CALLED 
+
+
+EXTERNAL CSS
+
+<head>
+    <link ref= "stylesheet" href = "style.css">
+<head>
+
+
+
+NOTE:
+Inline CSS will be taken as top preference if all the type or ways of CSS is used 
+
+
+
+4 Ways of selecting the CSS
+
+ 1. CSS element selectors 
+ 2. CSS ID selectors
+ 3. CSS class selectors
+ 4. The CSS grouping selectors
+
+
+
