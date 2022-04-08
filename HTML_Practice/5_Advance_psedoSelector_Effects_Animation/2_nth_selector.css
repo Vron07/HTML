@@ -1,0 +1,56 @@
+.container{
+    width: 300px;
+    margin: auto;
+}
+
+input{
+    display: block;
+}
+
+input[type='text']{
+    border: 4px solid orange;
+}
+
+input[type='submit']{
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+a[target]{
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: crimson;
+}
+
+a[target='_self']{
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(8, 12, 63)
+}
+
+
+li:nth-child(4){
+    color: tomato;
+    font-size: large;
+}
+
+li:nth-child(3){
+    color: rgb(45, 35, 189);
+    font-size: x-large;
+}
+
+/* Target even elements, first count (2(0)+0)=0, second count(2(1)+0)=2 */
+li:nth-child(2n+0){
+    background-color: chartreuse;
+
+}
+
+/* Target odd elements */
+li:nth-child(2n+1){
+    background-color: rgb(75, 63, 12);
+    color: white;
+}

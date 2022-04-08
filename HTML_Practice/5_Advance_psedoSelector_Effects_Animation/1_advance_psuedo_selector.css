@@ -1,0 +1,31 @@
+h2{
+    background-color: rebeccapurple;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Below code is targetting only those P tag which are direct child li which are
+   any level of DIV */
+/* div li p{
+    background-color: blue;
+    color: white;
+} */
+
+/* Below code is targetting only those P tag which are any level of DIV */
+/* div p{
+    background-color: blue;
+    color: white;
+} */
+
+/* Below code is targetting only those P tag which are direct child of DIV */
+/* div > p{
+    background-color: blue;
+    color: white;
+} */
+
+/* Below code is targetting only those P tag which are direct sibling of DIV 
+   or P is right after DIV*/
+div + p{
+    background-color: yellow;
+}

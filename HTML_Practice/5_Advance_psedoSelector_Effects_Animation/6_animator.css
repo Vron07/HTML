@@ -1,0 +1,59 @@
+.container{
+    background-color: chartreuse;
+}
+
+.item{
+    width: 220px;
+    height: 220px;
+    background-color: tomato;
+    text-align: center;/*Horizontal Center*/
+    line-height: 220px;
+    position: relative;
+    color: white;
+    animation: item-animation;
+    animation: item-animation2;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    /* animation-fill-mode: forwards;Stops at the last count at the 'to' position */
+    animation-fill-mode: alternate;/*Stops at the last count at the 'from' position*/
+    /* animation-timing-function: ease-out; */
+    /* ease-in the animation will start slow and end fast */
+    /* ease-out the animation will start fast and end slow */
+    /*animation-delay: 4s; Animation will be play after 4s */
+    animation-direction: normal;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+/* This is usefull for the progression bar or loading bar */
+@keyframes item-animation{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 600px;
+    }
+}
+
+@keyframes item-animation2 {
+    
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 83.5%;
+        top: 0px;
+    }
+    50%{
+        left: 83.5%;
+        top: 400px;
+    }
+    75%{
+        left: 0px;
+        top: 400px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+}
